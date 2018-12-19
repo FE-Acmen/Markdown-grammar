@@ -80,8 +80,8 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
 **注意**：上述的`[1]:https://www.zhihu.com/people/zhang-liu-ping-55`不出现在区块中。  
 
 + 自动链接
-> \<http://baidu.com\>  
-> \<zlpyde@163.com\> 
+> \<http://baidu.com>  
+> \<zlpyde@163.com> 
 
 效果：
 > <http://baidu.com>  

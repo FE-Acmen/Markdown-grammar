@@ -64,7 +64,7 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
   如果链接文字本身可以做为链接标记，你也可以写成[链接文字][] [链接文字]：链接地址的形式，见代码的最后一行。
 
   > 欢迎关注我的\[知乎\]\[1\]，\[掘金\]\[2\]，\[stackoverflow\]\[3\]，\[github\]\[\]  
-  > \[1\]:https://www.zhihu.com/people/zhang-liu-ping-55   
+  > \[1\]::https://www.zhihu.com/people/zhang-liu-ping-55   
   > \[2\]:https://juejin.im/user/5c1780926fb9a049ca37436c   
   > \[3\]:https://stackoverflow.com/users/10556742/liuping-zhang   
   > \[github\]:https://github.com/Young0510  
@@ -73,7 +73,7 @@ Markdown 支持两种形式的链接语法： 行内式和参考式两种形式�
   > 欢迎关注我的[知乎][1]，[掘金][2]，[stackoverflow][3]，[github][]  
 
 
-  [1]:https://www.zhihu.com/people/zhang-liu-ping-55  
+  [1]:https:://www.zhihu.com/people/zhang-liu-ping-55  
   [2]:https://juejin.im/user/5c1780926fb9a049ca37436c  
   [3]:https://stackoverflow.com/users/10556742/liuping-zhang  
   [github]:https://github.com/Young0510  

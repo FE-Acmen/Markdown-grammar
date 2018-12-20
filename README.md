@@ -201,12 +201,12 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 > \[^2\]HyperText Markup Language 超文本标记语言  
 
 效果：  
-> 使用Markdown[^1]可以效率的书写文档，直接转换成HTML[^2]。  
+使用Markdown[^1]可以效率的书写文档，直接转换成HTML[^2]。  
 
 [^1]:Markdown是一种纯文本标记语言  
 
 
-[^2]:HyperText Markup Language 超文本标记语言  
+[^2]:HyperTextMarkup Language 超文本标记语言  
 
 ### 8.分隔线  
 你可以在一行中用三个以上的星号(*)、减号(-)、底线(_)来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格  

@@ -183,11 +183,11 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 语法：在文档要插入图片的地方写!\[图片Alt\](图片URL "title"),图片Alt的意思是如果图片因为某些原因不能显示，就用定义的图片Alt文字来代替图片，图片Alt和title都可以省略，但建议写上  
 
 > 我的Github:  
-> ！\[zhanglp的Github\]\(https://github.com/Young0510/Markdown-grammar/blob/master/Capture1.PNG "我的Github"\)  
+> ！\[zhanglp的Github\]\(/Capture1.PNG "我的Github"\)  
 
 效果：  
-> 我的Github：  
-！[zhanglp的Github](https://github.com/Young0510/Markdown-grammar/blob/master/Capture1.PNG "我的Github")  
+我的Github：  
+！[zhanglp的Github](/Capture1.PNG "我的Github")  
 
 ### 7.注脚  
 语法：  
@@ -196,14 +196,16 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 **注意**：注脚与注脚之间必须空一行，不然会失效。成功后会发现，即使你没有把注脚写在文末，经Markdown转换后，也会自动归类到文章的最后。  
 > 使用Markdown\[^1\]可以效率的书写文档，直接转换成HTML\[^2\]。
 
-> \[^1\]Markdown是一种纯文本标记语言
+> \[^1\]Markdown是一种纯文本标记语言  
+> 
 > \[^2\]HyperText Markup Language 超文本标记语言  
 
 效果：  
-使用Markdown[^1]可以效率的书写文档，直接转换成HTML[^2]。  
+> 使用Markdown[^1]可以效率的书写文档，直接转换成HTML[^2]。  
 
-[^1]Markdown是一种纯文本标记语言
-[^2]HyperText Markup Language 超文本标记语言  
+> [^1]Markdown是一种纯文本标记语言  
+> 
+> [^2]HyperText Markup Language 超文本标记语言  
 
 ### 8.分隔线  
 你可以在一行中用三个以上的星号(*)、减号(-)、底线(_)来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格  

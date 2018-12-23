@@ -237,13 +237,37 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 - 缩进式多行代码  
 语法：缩进4个空格或是1个制表符  
 一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）  
-> \    function(){
-> \        alert("Hello,world")
-> \    }  
+> \    function(){  
+> \        alert("Hello,world")  
+> \    }    
 效果：  
 
 >     function(){
 >         alert("Hello,world")
 >     }   
+
 - 用六个`包裹多行代码  
+> \`\`\`  
+> function(){  
+>     alert("Hello,world")  
+> }  
+> \`\`\`  
+效果：  
+> ```
+> function(){
+>     alert("Hello,world")
+> }  
+> ```  
+
+- HTML原始码  
+在代码区块里面， & 、 < 和 > 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，剩下的 Markdown 都会帮你处理  
+> <\div class="footer">
+>    © 2018 Young  
+> </\div>  
+效果：  
+> <div class="footer">
+>    © 2018 Young  
+> </div>  
+
+
 

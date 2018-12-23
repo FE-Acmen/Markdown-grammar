@@ -187,7 +187,7 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 
 效果：  
 我的Github：  
-！[zhanglp的Github](/Capture1.png "我的Github")  
+[zhanglp的Github]:/Capture1.png "我的Github"    
 
 ### 7.注脚  
 语法：  

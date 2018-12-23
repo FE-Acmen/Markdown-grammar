@@ -236,9 +236,9 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 - 缩进式多行代码  
 语法：缩进4个空格或是1个制表符  
 一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）  
-> &nbsp function(){  
-> &nbsp    alert("Hello,world")  
-> &nbsp }    
+> &nbsp;&nbsp;&nbsp;&nbsp; function(){  
+> &nbsp;&nbsp;&nbsp;&nbsp;   alert("Hello,world")  
+> &nbsp;&nbsp;&nbsp;&nbsp; }    
 
 效果：  
 

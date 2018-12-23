@@ -240,6 +240,7 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 > \    function(){  
 > \        alert("Hello,world")  
 > \    }    
+
 效果：  
 
 >     function(){
@@ -252,7 +253,9 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 >     alert("Hello,world")  
 > }  
 > \`\`\`  
+
 效果：  
+
 > ```
 > function(){
 >     alert("Hello,world")
@@ -261,10 +264,14 @@ Github 并不支持 HTML 形式的锚点链接，它有自己的规则
 
 - HTML原始码  
 在代码区块里面， & 、 < 和 > 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，剩下的 Markdown 都会帮你处理  
-> <\div class="footer">
+> ```
+> <div class="footer">
 >    © 2018 Young  
-> </\div>  
+> </div>  
+> ```  
+
 效果：  
+
 > <div class="footer">
 >    © 2018 Young  
 > </div>  
